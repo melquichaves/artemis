@@ -2,13 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.VR;
+using UnityEngine.EventSystems;
 
 public class ChangeViewMode : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
-	}
+    
+    }
+
+    /*void Update() {
+        // Check if there is a touch
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) {
+            // Check if finger is over a UI element 
+            if (EventSystem.current.IsPointerOverGameObject()) {
+                ToggleVR();
+                //so when the user touched the UI(buttons) call your UI methods 
+                Debug.Log("foi");
+            }
+        }
+    }*/
+
 
     //Ligar VR
     IEnumerator SwitchToVR() {
