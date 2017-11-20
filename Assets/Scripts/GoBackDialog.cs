@@ -7,6 +7,7 @@ using UnityEngine;
 
 public class GoBackDialog : MonoBehaviour {
     public Button btn;
+    public string nomeLevel;
 
 
 	// Use this for initialization
@@ -16,17 +17,16 @@ public class GoBackDialog : MonoBehaviour {
 
 
     public void TouchBtn() {
-        Debug.Log("teste");
+        SceneManager.LoadScene(nomeLevel);
     }
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) {
+       /* if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) {
             // Check if finger is over a UI element 
-            if (EventSystem.current.IsPointerOverGameObject()) {
-                SceneManager.LoadScene(0);
+            if (EventSystem.current.IsPointerOverGameObject()) {   
                 Debug.Log("teste");
             }
-        }
+        }*/
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(Collider))]
 public class ChangeRoom : MonoBehaviour {
-    public int goToLevel;
+    public string goToLevel;
 
 	// Use this for initialization
 	void Start () {
