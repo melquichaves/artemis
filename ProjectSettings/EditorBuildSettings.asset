@@ -16,4 +16,7 @@ EditorBuildSettings:
     guid: 587c4717bdecbba4caf3fb74ffb16fe7
   - enabled: 1
     path: Assets/cena4Cozinha.unity
+    guid: d32b9b0f0845012449305362cd714deb
+  - enabled: 1
+    path: Assets/conversaModelo.unity
     guid: 00000000000000000000000000000000
