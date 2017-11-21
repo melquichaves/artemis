@@ -18,8 +18,17 @@ EditorBuildSettings:
     path: Assets/cena3QuartoIrma.unity
     guid: 587c4717bdecbba4caf3fb74ffb16fe7
   - enabled: 0
-    path: Assets/__DELETED_GUID_Trash/d90bd2aa580ea7843a09cafab1b168e7
+    path: 
     guid: d90bd2aa580ea7843a09cafab1b168e7
   - enabled: 1
     path: Assets/cena5Hall.unity
     guid: d8997a76801a8ca45ba92ba59d510fb0
+  - enabled: 1
+    path: Assets/Loading.unity
+    guid: 5b1128ccb32b318458de6915acaaa747
+  - enabled: 1
+    path: Assets/creditos.unity
+    guid: 3d41a1c6e1ccb154eb5d64c02f411dec
+  - enabled: 1
+    path: Assets/Menu.unity
+    guid: dec8ccee7d4d7f9479b0ce2e48dcc3eb
