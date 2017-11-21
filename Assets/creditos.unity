@@ -902,9 +902,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Andr\xE9 Bielovic\n\nFabio Nicodemos 20874349\n\nGuilherme Mota Barros
-    Mocedo 20847571\n\nGustavo\n\nJo\xE3o Victor Gon\xE7alves Perregil 20540783\n\nMarcus
-    Dantas\n\nMelquisedeque Chaves"
+  m_Text: "Andr\xE9 Bielovic 20829987\n\nFabio Nicodemos 20874349\n\nGuilherme Mota
+    Barros Mocedo 20847571\n\nGustavo\n\nJo\xE3o Victor Gon\xE7alves Perregil 20540783\n\nMarcus
+    Dantas 20793223\n\nMelquisedeque Chaves"
 --- !u!222 &1406942314
 CanvasRenderer:
   m_ObjectHideFlags: 0

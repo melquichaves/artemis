@@ -5,6 +5,7 @@ using UnityEngine.VR;
 
 public class ControlPlayerMono : MonoBehaviour {
 
+    public bool controlDialog = false;
     private Vector3 firstpoint; //change type on Vector3
     private Vector3 secondpoint;
     private float xAngle = 0; //angle for axes x for rotation
@@ -22,7 +23,7 @@ public class ControlPlayerMono : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (VRSettings.loadedDeviceName == "") {
+        if (VRSettings.loadedDeviceName == "" && !controlDialog) {
             if (Input.gyro.enabled != true) Input.gyro.enabled = true;
             this.transform.Rotate(-Input.gyro.rotationRateUnbiased.x, -Input.gyro.rotationRateUnbiased.y, 0);
             //Check count touches
@@ -43,9 +44,6 @@ public class ControlPlayerMono : MonoBehaviour {
                     this.transform.rotation = Quaternion.Euler(yAngle, xAngle, 0);
                 }
             }
-
-
-
         } else if (VRSettings.loadedDeviceName == "cardboard") {
             if (Input.gyro.enabled != false) Input.gyro.enabled = false;
         }

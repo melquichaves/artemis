@@ -13,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - UIVR
   - 
   - 
   - 
@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: UI
+    uniqueID: 358300361
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
